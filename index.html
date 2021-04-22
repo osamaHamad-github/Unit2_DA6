@@ -5,8 +5,49 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    #myParagraph {
+      color:purple;
+      font-family:courier;
+    }
+    #myImage {
+      height:50%;
+      width:50%;
+    }
+    #myTable {
+      border: 1px solid black;
+      padding: 10px;
+      border-spacing: 10px
+    }
+  </style>
   </head>
   <body>
     <script src="script.js"></script>
+    <h1>Using IDs</h1>
+    <p id="myParagraph">This paragraph is using an ID that defines what colour and font the characters should be. Many colours and fonts are available. Here are the fonts and what they look like:</p>
+    <img id="myImage" src="/images/char_fonts.jpg" alt="char_fonts">
+    <p id="myParagraph">As for colours, here are some nice colours you may use in HTML, including their hex codes:</p>
+    <table id="myTable">
+      <tr>
+        <th>No.</th>
+        <th>Colour Name</th>
+        <th>Hex Code</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>AliceBlue</td>
+        <td>#F0F8FF</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Aqua</td>
+        <td>#00FFFF</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>DarkMagenta</td>
+        <td>#8B008B</td>
+      </tr>
+    </table>
   </body>
 </html>
